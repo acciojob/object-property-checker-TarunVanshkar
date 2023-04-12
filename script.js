@@ -1,8 +1,9 @@
 const sampleObject = { red: "#FF0000", green: "#00FF00", white: "#FFFFFF" };
    
-function hasKey(key) {
+function hasKey(key) 
+{
 	//   write your code here
-	for(let currKey : sampleObject)
+	for(let currKey in sampleObject)
 		{
 			if(currKey==key)
 				{
